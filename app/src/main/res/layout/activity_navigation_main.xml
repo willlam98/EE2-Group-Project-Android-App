@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationMain"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <Button
+            android:id="@+id/Gate"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="0.62"
+            android:background="@color/colorAccent"
+            android:onClick="NextStep"
+            android:textColor="@color/colortextlight"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="-68dp"
+            tools:layout_editor_absoluteY="131dp" />
+
+        <Button
+            android:id="@+id/b10"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/nocolor"
+            android:onClick="NextStep"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="288dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="0.62"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/nocolor"
+                android:onClick="NextStep"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/Step1_circle"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_background"
+                android:onClick="NextStep"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteY="288dp" />
+
+            <Button
+                android:id="@+id/Step1"
+                android:layout_width="264dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/nocolor"
+                android:gravity="left|center_vertical"
+                android:onClick="NextStep"
+                android:text=" "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="0.62"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/nocolor"
+                android:onClick="NextStep"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/Step2_circle"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_background"
+                android:onClick="NextStep"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteY="288dp" />
+
+            <Button
+                android:id="@+id/Step2"
+                android:layout_width="264dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/nocolor"
+                android:gravity="left|center_vertical"
+                android:onClick="NextStep"
+                android:text=" "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="0.62"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/nocolor"
+                android:onClick="NextStep"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/Step3_circle"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_background"
+                android:onClick="NextStep"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteY="288dp" />
+
+            <Button
+                android:id="@+id/Step3"
+                android:layout_width="264dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/nocolor"
+                android:gravity="left|center_vertical"
+                android:onClick="NextStep"
+                android:text=" "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="0.62"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Back"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@color/nocolor"
+                android:onClick="BackStep"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colordialog"
+                android:textSize="24sp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteY="288dp"
+                tools:text="back" />
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/nocolor"
+                android:onClick="BackStep"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/b"
+                android:layout_width="51dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/nocolor"
+                android:onClick="GoInformation"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/FI"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_background_primary_dark"
+                android:onClick="GoInformation"
+                android:text="  i  "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colortextlight"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteY="288dp" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/nocolor"
+                android:onClick="GoInformation"
+                android:text=" " />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

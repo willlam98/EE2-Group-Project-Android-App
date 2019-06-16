@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#C9BED7</color>-->
+    <!--<color name="colorPrimaryDark">#40236B</color>-->
+    <!--<color name="colorAccent">#DAB03F</color>-->
+    <!--<color name="colortextlight">#FFFFFF</color>-->
+    <!--<color name= "colorbuttonlight"> #785F9F</color>-->
+    <!--<color name="nocolor">#000578ff</color>-->
+    <!--<color name="colordialog">#fafcff</color>-->
+    <color name="colorPrimary">#1F2121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#F4C160</color>
+    <color name="colortextlight">#FFFFFF</color>
+    <color name= "colorbuttonlight"> #424242</color>
+    <color name="nocolor">#000578ff</color>
+    <color name="colordialog">#DDDDDE</color>
+
+</resources>
